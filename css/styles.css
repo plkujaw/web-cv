@@ -95,7 +95,7 @@ footer {
 }
 
 ul li {
-  line-height: 2;
+  line-height: 2.5;
   list-style : none;
 }
 
@@ -133,7 +133,7 @@ figcaption {
 }
 
 .project-image {
-  width: 300px;
+  width: 80%;
 }
 
 .projects {
@@ -161,8 +161,8 @@ figcaption {
 }
 
 .icon {
-  width         : 26px;
-  vertical-align: text-bottom;
+  width: 26px;
+  /* vertical-align: text-bottom; */
 }
 
 .button {

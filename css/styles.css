@@ -2,6 +2,26 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
+nav {
+  background-color: #ffb852;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
 .skills-list {
   font-family: 'Inconsolata', monospace;
 }
+
+.icon {
+  width: 26px;
+}
+/* nav colour #ffb852 */
+/* footer colour #bfffe6 */
+/* left colour #c0b490 */
+/* right colour #008aa1 */

@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>kuba jawor | software developer</title>
+  <link rel="stylesheet" href="css/bootstrap-grid.css">
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500&display=swap" rel="stylesheet">
@@ -14,70 +15,128 @@
   <nav>
     <ul>
       <li>about</li>
-      <li>skills</li>
+      <!-- <li>skills</li> -->
       <li>projects</li>
       <li>social</li>
     </ul>
   </nav>
 
   <header>
-    <h1>kuba jawor<br />software developer</h1>
-    <ul class="skills-list">
-      <li>ruby | rails | postgres</li>
-      <li>javascript | html | css</li>
-      <li>tdd | mvc | oop</li>
-    </ul>
-    <figure>
-      <img src="img/kuba.jpg" alt="kuba jawor">
-      <figcaption>photo by Stephen Hughes</figcaption>
-    </figure>
+    <div class="container">
+      <div class="row">
+
+        <!-- left column -->
+        <div class="col-sm">
+          <h1>kuba jawor<br />software developer</h1>
+          <ul class="skills-list">
+            <li>reformed coder</li>
+            <li><a href="https://makers.tech">makers academy</a> graduate</p>
+            </li>
+            <li>#techforgood ambassador 🙌🏻</li>
+          </ul>
+        </div>
+
+        <!-- right column -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/kuba.jpg" alt="kuba jawor">
+            <figcaption>photo by Stephen Hughes</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
   </header>
+
   <!-- about -->
   <section>
-    <p>In 2019 I've decided to change my career. I wanted to feel that I am a part of something
-      meaningful, that with my work I make a positive impact on the world. Considering myself as a
-      caring, mindful and environmentally-conscious person who has always been keen on technology
-      has put me naturally on a path to follow 'tech for good' ethos. With programming's virtually unlimited possibilities I've made the transition into coding. That's why and how I've become an alumn of the renowned software development
-      boot camp - <a href="https://makers.tech">Makers Academy</a>.</p>
-    <a href="https://linkedin.com/in/kubajawor">more info</a>
+    <div class="container">
+      <h2>hi!</h2>
+      <div class="row">
+        <div class="col-sm">
+
+          <p>In 2019 I've decided to change my career. I wanted to feel that I'm a part of something
+            meaningful, that with my work I make a positive impact on the world. Considering myself as a
+            caring, mindful and environmentally-conscious person who has always been keen on technology
+            has put me naturally on a path to follow 'tech for good' ethos. With programming's virtually unlimited possibilities I've made the transition into coding. That's why and how I've become an alumn of the renowned software development
+            boot camp - <a href="https://makers.tech">Makers Academy</a>.
+            <!-- <a href="https://linkedin.com/in/kubajawor">more info</a> -->
+          </p>
+        </div>
+        <div class="col-sm">
+          <p>
+            familiar with
+            principles of software/web development
+            – Ruby, Ruby on Rails, JavaScript;
+            programming concepts/design – OOP,
+            Domain Modeling, MVC;
+            processes/methodologies – TDD, pair
+            programming, Agile; tools – GitHub, Heroku,
+            Travis CI.
+          </p>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- projects -->
 
   <!-- project 1 -->
   <section>
-    <figure>
-      <img src="img/cov.svg" alt="community video">
-      <figcaption>Community Video</figcaption>
-    </figure>
-    <h2>Community Video</h2>
-    <p>This project was completed remotely.
-      We were given 7 days of feature building along with 1 day of cleaning up and then 1 day for presentations.
-      Our goal was to create a website that allowed creative people to post free tutorials on whatever they would like to share.
-      As a user you have the option to follow, like and even donate to that creator. You also have your own profile to share and upload your own videos should you wish. As well as have a home page that contains the latest videos relevant to you; the
-      specific user.
-      This project was inspired by the CO-VID 19 outbreak where most of the world had to respect social distancing and have most of their lives occur in the online world.</p>
-    <a href="https://github.com/plkujaw/co-vid20-20">github repo</a>
+    <div class="container">
+      <h2>projects</h2>
+      <div class="row">
+        <!-- lef column -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/cov.svg" alt="community video">
+            <figcaption>Community Video</figcaption>
+          </figure>
+        </div>
+        <!-- right column -->
+        <div class="col-sm">
+          <h2>Community Video</h2>
+          <p>This project was completed remotely.
+            We were given 7 days of feature building along with 1 day of cleaning up and then 1 day for presentations.
+            Our goal was to create a website that allowed creative people to post free tutorials on whatever they would like to share.
+            As a user you have the option to follow, like and even donate to that creator. You also have your own profile to share and upload your own videos should you wish. As well as have a home page that contains the latest videos relevant to
+            you;
+            the
+            specific user.
+            This project was inspired by the CO-VID 19 outbreak where most of the world had to respect social distancing and have most of their lives occur in the online world.</p>
+          github repo: <a href="https://github.com/plkujaw/co-vid20-20"><img src="img/github.png" alt="community video" class="icon"></a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- project 2 -->
   <section>
-    <h2>Rock, Paper, Scissors</h2>
-    <p>Simple rock, paper, scissors game developed following TDD principles in Ruby/Sinatra.</p>
-    <a href="https://github.com/plkujaw/rps-challenge">github repo</a>
-    <figure>
-      <img src="img/rps.png" alt="rps">
-      <figcaption>Rock, Paper, Scissors</figcaption>
-    </figure>
+    <div class="container">
+      <div class="row">
+        <!-- left column -->
+        <div class="col-sm">
+          <h2>Rock, Paper, Scissors</h2>
+          <p>Simple rock, paper, scissors game developed following TDD principles in Ruby/Sinatra.</p>
+          github repo: <a href="https://github.com/plkujaw/rps-challenge"><img src="img/github.png" alt="rock paper scissors" class="icon"></a>
+        </div>
+        <!-- right column -->
+        <div class="col-sm">
+          <figure>
+            <img src="img/rps.png" alt="rock paper scissors">
+            <figcaption>Rock, Paper, Scissors</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
   </section>
 
   <footer>
     <h2>get in touch:<br />
       kuba.jawor@gmail.com</h2>
     <ul>
-      <li><a href="https://linkedin.com/in/kubajawor">linkedin</a></li>
-      <li><a href="https://github.com/plkujaw">github</a></li>
-      <li><a href="https://twitter.com/plkujaw">twitter</a></li>
+      <li><a href="https://linkedin.com/in/kubajawor"><img src="img/linkedin.png" alt="linkedin" class="icon"></a></li>
+      <li><a href="https://github.com/plkujaw"><img src="img/github.png" alt="github" class="icon"></a></li>
+      <li><a href="https://twitter.com/plkujaw"><img src="img/twitter.png" alt="twitter" class="icon"></a></li>
     </ul>
   </footer>
 </body>

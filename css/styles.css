@@ -48,9 +48,10 @@ nav {
 }
 
 nav ul li {
-  display: inline-block;
-  margin : 0 1%;
-  padding: 1%;
+  display  : inline-block;
+  font-size: 1.3rem;
+  margin   : 0 1%;
+  padding  : 1%;
 }
 
 nav ul {
@@ -100,6 +101,7 @@ ul li {
 }
 
 p {
+  font-size  : 1.2em;
   line-height: 1.6;
 }
 
@@ -157,7 +159,7 @@ figcaption {
 .skills-list {
   margin-top : 20%;
   font-family: 'Inconsolata', monospace;
-  font-size  : 1.5rem;
+  font-size  : 1.6rem;
 }
 
 .icon {

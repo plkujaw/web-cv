@@ -14,12 +14,16 @@
 <body>
   <nav>
     <ul>
-      <li>about</li>
-      <!-- <li>skills</li> -->
-      <li>projects</li>
-      <li>social</li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li class="empty"></li>
+      <li><a href="https://linkedin.com/in/kubajawor" target="_blank" rel="noreferrer">linkedin</a></li>
+      <li><a href="https://github.com/plkujaw" target="_blank" rel="noreferrer">github</a></li>
+      <li><a href="https://twitter.com/plkujaw" target="_blank" rel="noreferrer">twitter</a></li>
     </ul>
   </nav>
+
 
   <header>
     <div class="container">
@@ -29,17 +33,18 @@
         <div class="col-sm">
           <h1>kuba jawor<br />software developer</h1>
           <ul class="skills-list">
-            <li>reformed coder</li>
-            <li><a href="https://makers.tech">makers academy</a> graduate</p>
+            <li>_reformed coder</li>
+            <li>_<a href="https://makers.tech" target="_blank" rel="noreferrer">makers academy</a> graduate
             </li>
-            <li>#techforgood ambassador 🙌🏻</li>
+            <li>_#techforgood ambassador 🙌🏻</li>
           </ul>
+          <!-- <a href="https://linkedin.com/in/kubajawor" target="_blank" rel="noreferrer" class="button">more info</a> -->
         </div>
 
         <!-- right column -->
         <div class="col-sm">
           <figure>
-            <img src="img/kuba.jpg" alt="kuba jawor">
+            <img src="img/kuba.jpg" alt="kuba jawor" class="profile-picture">
             <figcaption>photo by Stephen Hughes</figcaption>
           </figure>
         </div>
@@ -48,97 +53,113 @@
   </header>
 
   <!-- about -->
-  <section>
-    <div class="container">
-      <h2>hi!</h2>
-      <div class="row">
-        <div class="col-sm">
+  <section class="about">
 
-          <p>In 2019 I've decided to change my career. I wanted to feel that I'm a part of something
-            meaningful, that with my work I make a positive impact on the world. Considering myself as a
-            caring, mindful and environmentally-conscious person who has always been keen on technology
-            has put me naturally on a path to follow 'tech for good' ethos. With programming's virtually unlimited possibilities I've made the transition into coding. That's why and how I've become an alumn of the renowned software development
-            boot camp - <a href="https://makers.tech">Makers Academy</a>.
-            <!-- <a href="https://linkedin.com/in/kubajawor">more info</a> -->
-          </p>
-        </div>
-        <div class="col-sm">
-          <p>
-            familiar with
-            principles of software/web development
-            – Ruby, Ruby on Rails, JavaScript;
-            programming concepts/design – OOP,
-            Domain Modeling, MVC;
-            processes/methodologies – TDD, pair
-            programming, Agile; tools – GitHub, Heroku,
-            Travis CI.
-          </p>
-        </div>
-      </div>
+    <div class="container">
+      <h2 id="about">hi!</h2>
+
+      <p>In 2019 I've decided to change my career. I wanted to feel that I'm a part of something
+        meaningful, that with my work I make a positive impact on the world. Considering myself as a
+        caring, mindful and environmentally-conscious person who has always been keen on technology
+        has put me naturally on a path to follow <strong>'tech for good'</strong> ethos. With programming's virtually unlimited possibilities I've decided to make a transition into coding. This is why and how I've become an alumn of the renowned software development
+        boot camp – <a href="https://makers.tech" target="_blank" rel="noreferrer">Makers Academy</a>.
+        <p>
+          In free time I discover new music and expand
+          my vinyl records <a href="https://www.discogs.com/user/plkujaw/collection" target="_blank" rel="noreferrer">collection</a>.
+          Since <em><strong>"A reader lives a thousand lives"</strong></em>, if not
+          listening to any LPs, I spend time reading.
+          When outdoors I feed my curiosity and
+          explorer’s element during hikes, road trips
+          and camping. I record them on digital and
+          analogue <a href="https://www.hireacamera.com/en-gb/blog/case-studies/customer-case-study-visiting-the-four-corners-of-the-uk-with-the-fujifilm-xe2-xf18-135mm" target="_blank" rel="noreferrer">photographs</a>.
+        <!-- <a href="https://linkedin.com/in/kubajawor">more info</a> -->
+      </p>
+
+    </div>
+    <div class="container">
+      <h2 id="skills">skills</h2>
+      <p>
+        Moving and living abroad has greatly
+        improved my <strong>adaptability</strong> skill.
+        The expectation of high-quality services and
+        products has sharpened my strong <strong>attention to detail</strong>.
+        Thanks to my previous roles and opportunity
+        to work with different clients on different
+        projects I have become an <strong>empathetic team player</strong>.
+      </p>
+      <p>
+        At Makers I have got familiar with
+        foundations of
+        <strong>software/web development</strong> –
+        Ruby, Ruby on Rails, JavaScript;
+        programming <strong>concepts/design</strong> – OOP, Domain Modeling,
+        MVC;
+        <strong>processes/methodologies</strong> – TDD, pair
+        programming, Agile;
+        <strong>tools</strong> – GitHub, Heroku,
+        Travis CI.
+      </p>
     </div>
   </section>
 
   <!-- projects -->
 
   <!-- project 1 -->
-  <section>
-    <div class="container">
-      <h2>projects</h2>
-      <div class="row">
-        <!-- lef column -->
-        <div class="col-sm">
-          <figure>
-            <img src="img/cov.svg" alt="community video">
-            <figcaption>Community Video</figcaption>
-          </figure>
-        </div>
-        <!-- right column -->
-        <div class="col-sm">
-          <h2>Community Video</h2>
-          <p>This project was completed remotely.
-            We were given 7 days of feature building along with 1 day of cleaning up and then 1 day for presentations.
-            Our goal was to create a website that allowed creative people to post free tutorials on whatever they would like to share.
-            As a user you have the option to follow, like and even donate to that creator. You also have your own profile to share and upload your own videos should you wish. As well as have a home page that contains the latest videos relevant to
-            you;
-            the
-            specific user.
-            This project was inspired by the CO-VID 19 outbreak where most of the world had to respect social distancing and have most of their lives occur in the online world.</p>
-          github repo: <a href="https://github.com/plkujaw/co-vid20-20"><img src="img/github.png" alt="community video" class="icon"></a>
+  <section class="projects">
+    <section class="project1">
+      <div class="container">
+        <h2 id="projects">projects</h2>
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <figure>
+              <img src="img/cov.png" alt="community video" class="project-image">
+              <!-- <figcaption>Community Video</figcaption> -->
+            </figure>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <h2>Community Video</h2>
+            <p>Platform where users can upload videos sharing their skills. It was inspired by the CoVid19 outbreak where most of the world had to respect social distancing and have most of their lives occur in the online world. The goal was to allow community members to be able to learn new skills during the time of lockdown and support each other.<br/>
+            <em>Tech stack: Ruby on Rails, PostgreSQL, PayPal API, JavaScript, CSS, RSpec, Capybara.</em></p>
+            <a href="https://github.com/plkujaw/co-vid20-20" target="_blank" rel="noreferrer"><img src="img/github.png" alt="community video" class="icon"></a>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- project 2 -->
-  <section>
-    <div class="container">
-      <div class="row">
-        <!-- left column -->
-        <div class="col-sm">
-          <h2>Rock, Paper, Scissors</h2>
-          <p>Simple rock, paper, scissors game developed following TDD principles in Ruby/Sinatra.</p>
-          github repo: <a href="https://github.com/plkujaw/rps-challenge"><img src="img/github.png" alt="rock paper scissors" class="icon"></a>
-        </div>
-        <!-- right column -->
-        <div class="col-sm">
-          <figure>
-            <img src="img/rps.png" alt="rock paper scissors">
-            <figcaption>Rock, Paper, Scissors</figcaption>
-          </figure>
+    <!-- project 2 -->
+    <section class="project2">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <h2>Rock, Paper, Scissors</h2>
+            <p>Simple rock, paper, scissors game developed following TDD principles.<br/>
+            <em>Tech stack: Ruby, Sinatra, CSS, RSpec, Capybara.</em></p>
+            <a href="https://github.com/plkujaw/rps-challenge" target="_blank" rel="noreferrer"><img src="img/github.png" alt="rock paper scissors" class="icon"></a>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/rps.png" alt="rock paper scissors" class="project-image">
+              <!-- <figcaption>Rock, Paper, Scissors</figcaption> -->
+            </figure>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
 
   <footer>
-    <h2>get in touch:<br />
-      kuba.jawor@gmail.com</h2>
+    <h2>get in touch</h2>
     <ul>
-      <li><a href="https://linkedin.com/in/kubajawor"><img src="img/linkedin.png" alt="linkedin" class="icon"></a></li>
-      <li><a href="https://github.com/plkujaw"><img src="img/github.png" alt="github" class="icon"></a></li>
-      <li><a href="https://twitter.com/plkujaw"><img src="img/twitter.png" alt="twitter" class="icon"></a></li>
+      <li><a href="https://linkedin.com/in/kubajawor" target="_blank" rel="noreferrer"><img src="img/linkedin.png" alt="linkedin" class="icon"></a></li>
+      <li><a href="https://github.com/plkujaw" target="_blank" rel="noreferrer"><img src="img/github.png" alt="github" class="icon"></a></li>
+      <li><a href="https://twitter.com/plkujaw" target="_blank" rel="noreferrer"><img src="img/twitter.png" alt="twitter" class="icon"></a></li>
     </ul>
   </footer>
+
 </body>
 
 </html>

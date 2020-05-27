@@ -162,7 +162,7 @@ figcaption {
 
 .icon {
   width         : 26px;
-  vertical-align: bottom;
+  vertical-align: text-bottom;
 }
 
 .button {

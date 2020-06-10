@@ -145,23 +145,23 @@ footer {
   color: #b5b09f;
 }
 
-.about a {
+.about a,
+.projects a {
   /* text-decoration: none; */
   color: #f0f0f0;
 }
 
-.about a:hover {
+.about a:hover,
+.projects a:hover {
   color: #1f1f1f;
 }
 
-.project1 {
+.project1,
+.project2,
+.project3,
+.project4 {
   /* background-color: rgba(9, 125, 145, 0.5); */
-  padding: 20px;
-}
-
-.project2 {
-  /* background-color: #a5cfe6; */
-  padding: 20px;
+  /* padding: 3%, 0; */
 }
 
 .project-image {
@@ -171,9 +171,15 @@ footer {
 
 .projects {
   background-color: rgba(9, 125, 145, 0.5);
-  padding         : 20px;
+  padding         : 2% 0;
+}
+/* .projects a {
+  color: #918d80;
 }
 
+.projects a:hover {
+  color: #1f1f1f;
+} */
 .projects-link:hover {
   color: rgba(9, 125, 145, 1);
 }

@@ -1,0 +1,116 @@
+<section class="project1">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <figure>
+              <img src="img/cov.png" alt="community video" class="project-image">
+              <!-- <figcaption>Community Video</figcaption> -->
+            </figure>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <h2>Community Video</h2>
+            <p>Platform where users can upload videos sharing their skills. It was inspired by the CoVid19 outbreak where most of the world had to respect social distancing and have most of their lives occur in the online world. The goal was to allow
+              community members to be able to learn new skills during the time of lockdown and support each other.<br />
+              <em>Tech stack: Ruby on Rails, PostgreSQL, PayPal API, JavaScript, CSS, RSpec, Capybara.</em></p>
+            <a href="https://github.com/plkujaw/co-vid20-20" target="_blank" rel="noreferrer"><img src="img/github.png" alt="github repo" class="icon"></a>
+            <a href="https://youtu.be/xNpah5xL_l0?t=2597" target="_blank" rel="noreferrer"><img src="img/yt.png" alt="demo video" class="icon-long"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project 2 -->
+    <section class="project2">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <h2>Rock, paper, scissors</h2>
+            <p>Classic rock, paper, scissors game developed following TDD principles.<br />
+              <em>Tech stack: Ruby, Sinatra, CSS, RSpec, Capybara.</em></p>
+            <a href="https://github.com/plkujaw/rps-challenge" target="_blank" rel="noreferrer"><img src="img/github.png" alt="rock paper scissors" class="icon"></a>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/rps.png" alt="rock paper scissors" class="project-image">
+              <!-- <figcaption>Rock, Paper, Scissors</figcaption> -->
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project 3 -->
+    <section class="project3">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <figure>
+              <img src="img/flipper-demo.gif" alt="colour flipper" class="project-image">
+              <!-- <figcaption>Colour flipper</figcaption> -->
+            </figure>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <h2>Colour flipper</h2>
+            <p>Background colour generator and flipper written in Vanilla JavaScript. <br />
+              <!-- In the 'simple' mode, the background colour is chosen randomly from the predefined range of colours.<br />
+              In the 'hex' mode, the background colour is generated randomly 'on the fly' in hexadecimal format.<br />
+              Background colour is also randomly chosen/generated on page load.<br /> -->
+              <em>Tech stack: Vanilla JavaScript, HTML, CSS.</em></p>
+            <a href="https://github.com/plkujaw/js-colour-flipper" target="_blank" rel="noreferrer"><img src="img/github.png" alt="github repo" class="icon"></a>
+            <a href="https://plkujaw.github.io/js-colour-flipper/index.html" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project 4 -->
+    <section class="project4">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <h2>Corona Run Game</h2>
+            <p>Project build for <a href="https://twitter.com/hashtag/hackforheroes" target="_blank" rel="noreferrer">#hackforheroes</a>, a two days and a half hackathon organized by Makers. The main theme was developing an app inspired by the
+              Covid-19 crisis.<br />
+              <em>Tech stack: JavaScript, p5.js.</em></p>
+            <a href="https://github.com/plkujaw/hfh_corona_game" target="_blank" rel="noreferrer"><img src="img/github.png" alt="hack for heroes" class="icon"></a>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <figure>
+              <img src="img/hfh.png" alt="hackforheroes" class="project-image">
+              <!-- <figcaption>Corona Run Game</figcaption> -->
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project 5-->
+    <section class="project5">
+      <div class="container">
+        <div class="row">
+          <!-- left column -->
+          <div class="col-sm right">
+            <figure>
+              <img src="img/palindrome.gif" alt="palindrome detector" class="project-image">
+              <!-- <figcaption>Colour flipper</figcaption> -->
+            </figure>
+          </div>
+          <!-- right column -->
+          <div class="col-sm">
+            <h2>Palindrome detector</h2>
+            <p>Check if the given phrase is a palindrome. <br />
+              <em>Tech stack: Vanilla JavaScript, HTML, CSS.</em></p>
+            <a href="https://github.com/plkujaw/js-palindrome-detector" target="_blank" rel="noreferrer"><img src="img/github.png" alt="github repo" class="icon"></a>
+            <a href="https://plkujaw.github.io/js-palindrome-detector/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>
+            <a href="https://www.npmjs.com/package/plkujaw-palindrome"target="_blank" rel="noreferrer"><img src="img/npm.png" alt="npm" class="icon"></a>
+          </div>
+        </div>
+      </div>
+    </section>

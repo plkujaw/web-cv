@@ -62,6 +62,26 @@ const projects = [
           /></a>`,
     img: "img/palindrome.gif",
   },
+  {
+    id: 6,
+    name: "Big City",
+    info:
+      "HTML/CSS exercise - create responsive website based on the Photoshop UI layout.",
+    stack: "Tech stack: HTML, CSS.",
+    links: `<a
+            href="https://github.com/plkujaw/bigcity"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/github.png" alt="github repo" class="icon"
+          /></a>
+          <a
+            href="https://plkujaw.github.io/bigcity/"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/www.png" alt="website" class="icon"
+          /></a>`,
+    img: "img/bigcity.png",
+  },
 ];
 
 const img = document.getElementById("project-img");

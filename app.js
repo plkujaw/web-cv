@@ -67,7 +67,7 @@ const projects = [
     name: "Big City",
     info:
       "Created a responsive website based on the Photoshop UI layout/design.",
-    stack: "Tech stack: HTML, CSS, JavaScript, Jest",
+    stack: "Tech stack: HTML, CSS, JavaScript, Jest.",
     links: `<a
             href="https://github.com/plkujaw/bigcity"
             target="_blank"

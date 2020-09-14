@@ -64,9 +64,9 @@ const projects = [
   },
   {
     id: 6,
-    name: "Big City",
+    name: "Big City (work in progress)",
     info:
-      "(Work in progress) Create a responsive, fuctioning website based on the Photoshop UI layout/design.",
+      "Create a functioning, responsive website based only on a Photoshop design/layout.",
     stack: "Tech stack: HTML, CSS, JavaScript, Jest.",
     links: `<a
             href="https://github.com/plkujaw/bigcity"

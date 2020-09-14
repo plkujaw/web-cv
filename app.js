@@ -94,7 +94,7 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 
-let currentItem = 2;
+let currentItem = Math.floor(Math.random() * projects.length);
 
 window.addEventListener("DOMContentLoaded", () => {
   showProject(currentItem);
@@ -116,7 +116,7 @@ nextBtn.addEventListener("click", () => {
     currentItem = 0;
   }
   showProject(currentItem);
-  window.location.replace("index.html#projects");
+  // window.location.replace("index.html#projects");
 });
 
 // show previous review

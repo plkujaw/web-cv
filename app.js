@@ -82,6 +82,20 @@ const projects = [
           /></a>`,
     img: "img/bigcity.png",
   },
+  {
+    id: 7,
+    name: "Greenheart",
+    info:
+      "Build a custom WordPress website and theme for social & environmental impact consultancy",
+    stack: "Tech stack: WordPress, Timber/Twig, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.",
+    links: `<a
+            href="https://greenheartbusiness.com/"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/www.png" alt="website" class="icon"
+          /></a>`,
+    img: "img/greenheart.jpg",
+  },
 ];
 
 const img = document.getElementById("project-img");
@@ -94,7 +108,7 @@ const prevBtn = document.querySelector(".prev-btn");
 const nextBtn = document.querySelector(".next-btn");
 const randomBtn = document.querySelector(".random-btn");
 
-let currentItem = Math.floor(Math.random() * projects.length);
+let currentItem = projects.length - 1;
 
 window.addEventListener("DOMContentLoaded", () => {
   showProject(currentItem);

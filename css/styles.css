@@ -223,7 +223,6 @@ footer {
   padding: 0.5% 3%;
   margin: 5% 0;
   transition: var(--transition);
-  outline: none;
 }
 
 .button:hover {
@@ -239,6 +238,7 @@ footer {
   margin: 0.5rem;
   transition: var(--transition);
   cursor: pointer;
+  outline: none;
 }
 
 .next-btn:hover,

@@ -142,7 +142,7 @@ prevBtn.addEventListener("click", () => {
     currentItem = projects.length - 1;
   }
   showProject(currentItem);
-  window.location.replace("index.html#projects");
+  // window.location.replace("index.html#projects");
 });
 
 // show random review

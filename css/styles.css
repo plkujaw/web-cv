@@ -238,13 +238,18 @@ footer {
   margin: 0.5rem;
   transition: var(--transition);
   cursor: pointer;
-  outline: none;
+  
 }
 
 .next-btn:hover,
 .prev-btn:hover,
 .random-btn:hover {
   color: #1f1f1f;
+}
+
+.next-btn:focus,
+.prev-btn:focus {
+outline: none;
 }
 
 .random-btn {

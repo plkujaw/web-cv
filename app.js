@@ -48,27 +48,9 @@ const projects = [
           `,
     img: 'img/tumu.png',
   },
+  
   {
     id: 6,
-    name: 'Big City',
-    info: 'Create a functioning, responsive website based only on a Photoshop design/layout.',
-    stack: 'Tech stack: HTML, CSS, JavaScript, Jest.',
-    links: `<a
-            href="https://github.com/plkujaw/bigcity"
-            target="_blank"
-            rel="noreferrer"
-            ><img src="img/github.png" alt="github repo" class="icon"
-          /></a>
-          <a
-            href="https://plkujaw.github.io/bigcity/"
-            target="_blank"
-            rel="noreferrer"
-            ><img src="img/www.png" alt="website" class="icon"
-          /></a>`,
-    img: 'img/bigcity.png',
-  },
-  {
-    id: 7,
     name: 'Greenheart',
     info: 'Build a custom WordPress website and theme for social & environmental impact consultancy',
     stack:

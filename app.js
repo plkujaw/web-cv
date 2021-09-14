@@ -71,7 +71,7 @@ const projects = [
     stack:
       'Tech stack: WordPress, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
     links: `<a
-            href=https://arcratings.com/"
+            href="https://arcratings.com/"
             target="_blank"
             rel="noreferrer"
             ><img src="img/www.png" alt="website" class="icon"
@@ -129,8 +129,8 @@ prevBtn.addEventListener('click', () => {
 
 // show random review
 
-randomBtn.addEventListener('click', () => {
-  currentItem = Math.floor(Math.random() * projects.length);
-  showProject(currentItem);
-  window.location.replace('index.html#projects');
-});
+ // randomBtn.addEventListener('click', () => {
+ //   currentItem = Math.floor(Math.random() * projects.length);
+ //   showProject(currentItem);
+ //   window.location.replace('index.html#projects');
+ // });

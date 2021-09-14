@@ -69,7 +69,7 @@ const projects = [
     name: 'ARC Ratings',
     info: 'Build a custom WordPress website and theme for a credit rating agency',
     stack:
-      'Tech stack: WordPress, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
+      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, jQuery, Gulp.js.',
     links: `<a
             href="https://arcratings.com/"
             target="_blank"

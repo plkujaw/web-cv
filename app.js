@@ -63,6 +63,21 @@ const projects = [
           /></a>`,
     img: 'img/greenheart.jpg',
   },
+  
+    {
+    id: 7,
+    name: 'ARC Ratings',
+    info: 'Build a custom WordPress website and theme for a credit rating agency',
+    stack:
+      'Tech stack: WordPress, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
+    links: `<a
+            href=https://arcratings.com/"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/www.png" alt="website" class="icon"
+          /></a>`,
+    img: 'img/arc.jpg',
+  },
 ];
 
 const img = document.getElementById('project-img');

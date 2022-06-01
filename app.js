@@ -78,6 +78,21 @@ const projects = [
           /></a>`,
     img: 'img/arc.jpg',
   },
+ 
+    {
+    id: 8,
+    name: 'Earlsgate',
+    info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer',
+    stack:
+      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
+    links: `<a
+            href="https://earlsgate.com"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/www.png" alt="website" class="icon"
+          /></a>`,
+    img: 'img/earlsgate.png',
+  },
 ];
 
 const img = document.getElementById('project-img');

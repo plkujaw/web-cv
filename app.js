@@ -4,7 +4,7 @@ const projects = [
     name: 'Duke & Duck',
     info: 'WordPress website for an award-winning content studio.',
     stack:
-      'Tech stack: WordPress, ACF, Vimeo API, SCSS, JavaScript, Lottie',
+      'Tech stack: WordPress, ACF, Vimeo API, SCSS, JavaScript, Lottie.',
     links: `<a href="https://dukeduck.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/dukeduck.png',
   },
@@ -13,16 +13,16 @@ const projects = [
     name: 'Adero Partners',
     info: 'WordPress website for a wealth management counselors.',
     stack:
-      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie',
+      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie.',
     links: `<a href="https://aderopartners.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/adero.png',
   },
     {
     id: 3,
     name: 'Stonewall Housing',
-    info: 'WordPress website for a LGBTQ+ Charity',
+    info: 'WordPress website for a LGBTQ+ Charity.',
     stack:
-      'Tech stack: WordPress, ACF, SCSS, JavaScript',
+      'Tech stack: WordPress, ACF, SCSS, JavaScript.',
     links: `<a href="https://stonewallhousing.org/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/stonewall.png',
   },
@@ -31,7 +31,7 @@ const projects = [
     {
     id: 4,
     name: 'Earlsgate',
-    info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer',
+    info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer.',
     stack:
       'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
     links: `<a
@@ -45,7 +45,7 @@ const projects = [
     {
     id: 5,
     name: 'ARC Ratings',
-    info: 'Build a custom WordPress website and theme for a credit rating agency',
+    info: 'Build a custom WordPress website and theme for a credit rating agency.',
     stack:
       'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, jQuery, Gulp.js.',
     links: `<a
@@ -80,7 +80,7 @@ const projects = [
     name: 'Tumu Consulting',
     info: 'WordPress build for a civil engineering consultancy.',
     stack:
-      'Tech stack: WordPress, Timber/Twig, ACF, SCSS, gulp.js, JavaScript, jQuery',
+      'Tech stack: WordPress, Timber/Twig, ACF, SCSS, gulp.js, JavaScript, jQuery.',
     links: `<a
             href="https://www.tumuconsulting.com/"
             target="_blank"

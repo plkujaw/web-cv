@@ -8,6 +8,15 @@ const projects = [
     links: `<a href="https://dukeduck.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/dukeduck.png',
   },
+      {
+    id: 2,
+    name: 'Adero Partners',
+    info: 'WordPress website for a wealth management counselors.',
+    stack:
+      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie',
+    links: `<a href="https://aderopartners.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
+    img: 'img/adero.png',
+  },
     {
     id: 3,
     name: 'Stonewall Housing',
@@ -17,18 +26,10 @@ const projects = [
     links: `<a href="https://stonewallhousing.org/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/stonewall.png',
   },
-    {
-    id: 2,
-    name: 'Adero Partners',
-    info: 'WordPress website for a wealth management counselors.',
-    stack:
-      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie',
-    links: `<a href="https://aderopartners.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/adero.png',
-  },
+
      
     {
-    id: 5,
+    id: 4,
     name: 'Earlsgate',
     info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer',
     stack:
@@ -42,7 +43,7 @@ const projects = [
     img: 'img/earlsgate.png',
   },
     {
-    id: 6,
+    id: 5,
     name: 'ARC Ratings',
     info: 'Build a custom WordPress website and theme for a credit rating agency',
     stack:
@@ -57,7 +58,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 6,
     name: 'Biotechflow',
     info: 'WordPress build for a bio-technology company that specialises in intensified bio separations, Downstream Process using Expanded Bed Adsorption chromatography step.',
     stack:
@@ -66,7 +67,7 @@ const projects = [
     img: 'img/btf.png',
   },
   {
-    id: 5,
+    id: 7,
     name: 'Hightide',
     info: 'WordPress website for kayak school and hire company based in Switzerland.',
     stack:
@@ -75,7 +76,7 @@ const projects = [
     img: 'img/ht.png',
   },
   {
-    id: 6,
+    id: 8,
     name: 'Tumu Consulting',
     info: 'WordPress build for a civil engineering consultancy.',
     stack:
@@ -90,7 +91,7 @@ const projects = [
   },
   
   {
-    id: 7,
+    id: 9,
     name: 'Greenheart',
     info: 'Build a custom WordPress website and theme for social & environmental impact consultancy',
     stack:

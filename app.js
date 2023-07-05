@@ -1,15 +1,63 @@
 const projects = [
   {
     id: 1,
-    name: 'The Kings Arms',
-    info: 'WordPress website for a local pub.',
+    name: 'Duke & Duck',
+    info: 'WordPress website for an award-winning content studio.',
     stack:
-      'Tech stack: WordPress, Timber/Twig, ACF, SCSS, gulp.js, JavaScript, jQuery.',
-    links: `<a href="https://kingsarmsatstrete.co.uk/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/tka.png',
+      'Tech stack: WordPress, ACF, Vimeo API, SCSS, JavaScript, Lottie',
+    links: `<a href="https://dukeduck.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
+    img: 'img/dukeduck.png',
   },
-  {
+    {
+    id: 3,
+    name: 'Stonewall Housing',
+    info: 'WordPress website for a LGBTQ+ Charity',
+    stack:
+      'Tech stack: WordPress, ACF, SCSS, JavaScript',
+    links: `<a href="https://stonewallhousing.org/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
+    img: 'img/stonewall.png',
+  },
+    {
     id: 2,
+    name: 'Adero Partners',
+    info: 'WordPress website for a wealth management counselors.',
+    stack:
+      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie',
+    links: `<a href="https://aderopartners.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
+    img: 'img/adero.png',
+  },
+     
+    {
+    id: 5,
+    name: 'Earlsgate',
+    info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer',
+    stack:
+      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
+    links: `<a
+            href="https://earlsgate.com"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/www.png" alt="website" class="icon"
+          /></a>`,
+    img: 'img/earlsgate.png',
+  },
+    {
+    id: 6,
+    name: 'ARC Ratings',
+    info: 'Build a custom WordPress website and theme for a credit rating agency',
+    stack:
+      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, jQuery, Gulp.js.',
+    links: `<a
+            href="https://arcratings.com/"
+            target="_blank"
+            rel="noreferrer"
+            ><img src="img/www.png" alt="website" class="icon"
+          /></a>`,
+    img: 'img/arc.jpg',
+  },
+
+  {
+    id: 4,
     name: 'Biotechflow',
     info: 'WordPress build for a bio-technology company that specialises in intensified bio separations, Downstream Process using Expanded Bed Adsorption chromatography step.',
     stack:
@@ -18,7 +66,7 @@ const projects = [
     img: 'img/btf.png',
   },
   {
-    id: 3,
+    id: 5,
     name: 'Hightide',
     info: 'WordPress website for kayak school and hire company based in Switzerland.',
     stack:
@@ -27,15 +75,7 @@ const projects = [
     img: 'img/ht.png',
   },
   {
-    id: 4,
-    name: 'E28 BMW M5 website.',
-    info: `If the E28 BMW M5 was a brand new car on sale today...`,
-    stack: 'Tech stack: HTML, CSS, jQuery, Lottie, Bootstrap.',
-    links: `<a href="https://pistonnerd.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/bmw.png',
-  },
-  {
-    id: 5,
+    id: 6,
     name: 'Tumu Consulting',
     info: 'WordPress build for a civil engineering consultancy.',
     stack:
@@ -50,7 +90,7 @@ const projects = [
   },
   
   {
-    id: 6,
+    id: 7,
     name: 'Greenheart',
     info: 'Build a custom WordPress website and theme for social & environmental impact consultancy',
     stack:
@@ -63,36 +103,7 @@ const projects = [
           /></a>`,
     img: 'img/greenheart.jpg',
   },
-  
-    {
-    id: 7,
-    name: 'ARC Ratings',
-    info: 'Build a custom WordPress website and theme for a credit rating agency',
-    stack:
-      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, jQuery, Gulp.js.',
-    links: `<a
-            href="https://arcratings.com/"
-            target="_blank"
-            rel="noreferrer"
-            ><img src="img/www.png" alt="website" class="icon"
-          /></a>`,
-    img: 'img/arc.jpg',
-  },
- 
-    {
-    id: 8,
-    name: 'Earlsgate',
-    info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer',
-    stack:
-      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
-    links: `<a
-            href="https://earlsgate.com"
-            target="_blank"
-            rel="noreferrer"
-            ><img src="img/www.png" alt="website" class="icon"
-          /></a>`,
-    img: 'img/earlsgate.png',
-  },
+
 ];
 
 const img = document.getElementById('project-img');

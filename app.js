@@ -117,7 +117,7 @@ const prevBtn = document.querySelector('.prev-btn');
 const nextBtn = document.querySelector('.next-btn');
 const randomBtn = document.querySelector('.random-btn');
 
-let currentItem = projects.length - 1;
+let currentItem = 0;
 
 window.addEventListener('DOMContentLoaded', () => {
   showProject(currentItem);

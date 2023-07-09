@@ -6,7 +6,7 @@ const projects = [
     stack:
       'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie.',
     links: `<a href="https://wordpress-994865-3606253.cloudwaysapps.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/amyp.png',
+    img: 'img/amyp.jpg',
   },  
   {
     id: 2,
@@ -15,7 +15,7 @@ const projects = [
     stack:
       'Tech stack: WordPress (Gutenberg), SCSS, JavaScript.',
     links: `<a href="https://pollittpartner.wpengine.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/pp.png',
+    img: 'img/pp.jpg',
   },  
   {
     id: 3,
@@ -24,7 +24,7 @@ const projects = [
     stack:
       'Tech stack: WordPress (Gutenberg), ACF, Vimeo API, SCSS, JavaScript, Lottie.',
     links: `<a href="https://dukeduck.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/dukeduck.png',
+    img: 'img/dukeduck.jpg',
   },
       {
     id: 4,
@@ -33,7 +33,7 @@ const projects = [
     stack:
       'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie.',
     links: `<a href="https://aderopartners.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/adero.png',
+    img: 'img/adero.jpg',
   },
     {
     id: 5,
@@ -42,7 +42,7 @@ const projects = [
     stack:
       'Tech stack: WordPress (Gutenberg), ACF, SCSS, JavaScript.',
     links: `<a href="https://stonewallhousing.org/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
-    img: 'img/stonewall.png',
+    img: 'img/stonewall.jpg',
   },
 
      
@@ -58,7 +58,7 @@ const projects = [
             rel="noreferrer"
             ><img src="img/www.png" alt="website" class="icon"
           /></a>`,
-    img: 'img/earlsgate.png',
+    img: 'img/earlsgate.jpg',
   },
     {
     id: 7,

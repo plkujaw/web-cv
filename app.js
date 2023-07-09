@@ -4,7 +4,7 @@ const projects = [
     name: 'AMYP Ventures (WIP)',
     info: 'WordPress website for an early stage mobility companies investor.',
     stack:
-      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie.',
+      'Tech stack: PHP, WordPress, ACF, SCSS, JavaScript, Lottie.',
     links: `<a href="https://wordpress-994865-3606253.cloudwaysapps.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/amyp.jpg',
   },  
@@ -13,7 +13,7 @@ const projects = [
     name: 'Pollitt&Partners (WIP)',
     info: 'WordPress website for a creative agency.',
     stack:
-      'Tech stack: WordPress (Gutenberg), SCSS, JavaScript.',
+      'Tech stack: PHP, WordPress (Gutenberg), SCSS, JavaScript.',
     links: `<a href="https://pollittpartner.wpengine.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/pp.jpg',
   },  
@@ -22,7 +22,7 @@ const projects = [
     name: 'Duke & Duck',
     info: 'WordPress website for an award-winning content studio.',
     stack:
-      'Tech stack: WordPress (Gutenberg), ACF, Vimeo API, SCSS, JavaScript, Lottie.',
+      'Tech stack: PHP, WordPress (Gutenberg), ACF, Vimeo API, SCSS, JavaScript, Lottie.',
     links: `<a href="https://dukeduck.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/dukeduck.jpg',
   },
@@ -31,7 +31,7 @@ const projects = [
     name: 'Adero Partners',
     info: 'WordPress website for a wealth management counselors.',
     stack:
-      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie.',
+      'Tech stack: PHP, WordPress, ACF, SCSS, JavaScript, Lottie.',
     links: `<a href="https://aderopartners.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/adero.jpg',
   },
@@ -40,7 +40,7 @@ const projects = [
     name: 'Stonewall Housing',
     info: 'WordPress website for a LGBTQ+ Charity.',
     stack:
-      'Tech stack: WordPress (Gutenberg), ACF, SCSS, JavaScript.',
+      'Tech stack: PHP, WordPress (Gutenberg), ACF, SCSS, JavaScript.',
     links: `<a href="https://stonewallhousing.org/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/stonewall.jpg',
   },
@@ -51,7 +51,7 @@ const projects = [
     name: 'Earlsgate',
     info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer.',
     stack:
-      'Tech stack: WordPress, PHP, Custom Post Types, Custom Taxonomies, Advanced Custom Fields, HTML, SCSS, JavaScript, Gulp.js.',
+      'Tech stack: PHP, WordPress, SCSS, JavaScript.',
     links: `<a
             href="https://earlsgate.com"
             target="_blank"
@@ -128,7 +128,7 @@ const projects = [
 const img = document.getElementById('project-img');
 const name = document.getElementById('name');
 const info = document.getElementById('info');
-const stack = document.getElementById('stack');
+// const stack = document.getElementById('stack');
 const links = document.getElementById('links');
 
 const prevBtn = document.querySelector('.prev-btn');
@@ -146,7 +146,7 @@ showProject = (project) => {
   img.src = item.img;
   title.textContent = item.name;
   info.innerHTML = item.info;
-  stack.textContent = item.stack;
+  // stack.textContent = item.stack;
   links.innerHTML = item.links;
 };
 

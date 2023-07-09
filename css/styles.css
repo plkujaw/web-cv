@@ -174,8 +174,8 @@ footer {
 }
 
 .project-image {
-  display: inline-block;
-  width: 40%;
+  display: block;
+  max-width: 900px;
   height: 100%;
 }
 

@@ -1,15 +1,33 @@
 const projects = [
   {
     id: 1,
+    name: 'AMYP Ventures (WIP)',
+    info: 'WordPress website for an early stage mobility companies investor.',
+    stack:
+      'Tech stack: WordPress, ACF, SCSS, JavaScript, Lottie.',
+    links: `<a href="https://wordpress-994865-3606253.cloudwaysapps.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
+    img: 'img/amyp.png',
+  },  
+  {
+    id: 2,
+    name: 'Pollitt&Partners (WIP)',
+    info: 'WordPress website for a creative agency.',
+    stack:
+      'Tech stack: WordPress (Gutenberg), SCSS, JavaScript.',
+    links: `<a href="https://pollittpartner.wpengine.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
+    img: 'img/pp.png',
+  },  
+  {
+    id: 3,
     name: 'Duke & Duck',
     info: 'WordPress website for an award-winning content studio.',
     stack:
-      'Tech stack: WordPress, ACF, Vimeo API, SCSS, JavaScript, Lottie.',
+      'Tech stack: WordPress (Gutenberg), ACF, Vimeo API, SCSS, JavaScript, Lottie.',
     links: `<a href="https://dukeduck.com/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/dukeduck.png',
   },
       {
-    id: 2,
+    id: 4,
     name: 'Adero Partners',
     info: 'WordPress website for a wealth management counselors.',
     stack:
@@ -18,18 +36,18 @@ const projects = [
     img: 'img/adero.png',
   },
     {
-    id: 3,
+    id: 5,
     name: 'Stonewall Housing',
     info: 'WordPress website for a LGBTQ+ Charity.',
     stack:
-      'Tech stack: WordPress, ACF, SCSS, JavaScript.',
+      'Tech stack: WordPress (Gutenberg), ACF, SCSS, JavaScript.',
     links: `<a href="https://stonewallhousing.org/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/stonewall.png',
   },
 
      
     {
-    id: 4,
+    id: 6,
     name: 'Earlsgate',
     info: 'Build a custom WordPress website and theme for a traditional and classical country houses developer.',
     stack:
@@ -43,7 +61,7 @@ const projects = [
     img: 'img/earlsgate.png',
   },
     {
-    id: 5,
+    id: 7,
     name: 'ARC Ratings',
     info: 'Build a custom WordPress website and theme for a credit rating agency.',
     stack:
@@ -58,7 +76,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 8,
     name: 'Biotechflow',
     info: 'WordPress build for a bio-technology company that specialises in intensified bio separations, Downstream Process using Expanded Bed Adsorption chromatography step.',
     stack:
@@ -67,16 +85,16 @@ const projects = [
     img: 'img/btf.png',
   },
   {
-    id: 7,
+    id: 9,
     name: 'Hightide',
     info: 'WordPress website for kayak school and hire company based in Switzerland.',
     stack:
-      'Tech stack: WordPress, Timber/Twig, ACF, SCSS, gulp.js, JavaScript, jQuery. Used Gutenberg blocks for modularity.',
+      'Tech stack: WordPress (Gytenberg), Timber/Twig, ACF, SCSS, gulp.js, JavaScript, jQuery.',
     links: `<a href="http://hightide.ch/" target="_blank" rel="noreferrer"><img src="img/www.png" alt="website" class="icon"></a>`,
     img: 'img/ht.png',
   },
   {
-    id: 8,
+    id: 10,
     name: 'Tumu Consulting',
     info: 'WordPress build for a civil engineering consultancy.',
     stack:
@@ -91,7 +109,7 @@ const projects = [
   },
   
   {
-    id: 9,
+    id: 11,
     name: 'Greenheart',
     info: 'Build a custom WordPress website and theme for social & environmental impact consultancy',
     stack:
